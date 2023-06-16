@@ -3,19 +3,25 @@
 }
 
 html {
-    background:#FF7F50;
+    background:#36454F;
+    color:#C0C0C0;
 }
 
-h1 {
-    color:#008080
-}
+h1, h2{
+    color:#7e7ac4;
 
-h2 {
-    color: #008080
 }
 
 ul li {
     display:inline-block;
     margin: 0 10px;
     
+}
+
+a {
+    color:#87CEEB;
+}
+
+img{
+    border:#a0bfda80 5px solid;
 }
