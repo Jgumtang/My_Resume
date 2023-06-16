@@ -1,15 +1,21 @@
-html {
-    background:#FCEDDA;
+* {
+    text-align:center;
+}
 
+html {
+    background:#FF7F50;
 }
 
 h1 {
-
-    color:#bd3318;
-
+    color:#008080
 }
 
 h2 {
- color: #E3B448;
+    color: #008080
+}
 
+ul li {
+    display:inline-block;
+    margin: 0 10px;
+    
 }
