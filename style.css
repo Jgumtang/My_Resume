@@ -18,37 +18,68 @@ h3 {
 }
 
 .first-image {
-    width:200px;
-    height:250px;
+    width:250px;
+    height:320px;
     padding: 25px;
     float:left;
-    }
+}
 
 .first-header {
     display:inline-block;
 }
 
-.second-header {
-    
-}
-
 .first-p {
-  display:block;
-    
+    display:block;
+          
+}
+  
+.second-header {
+    display:inline;
+
 }
 
-
-.third-div {
-    clear:left;
+.experience {
+    display:inline-block;
 }
 
+a {
+    color:#87CEEB;
+}
+  
 ul li {
     display:inline-block;
     margin: 0 10px;   
 }
 
+.third-header {
+    display:inline;
+}
 
-a {
-    color:#87CEEB;
+.skills {
+    display:inline-block;
+}
+
+.fourth-div {
+    height:10px;
+}
+
+.fourth-header {
+    position:relative;
+}
+
+.certification {
+   position:relative;
+}
+
+.other {
+    display:inline;
+}
+
+.project-links {
+    display:inline-block;
+}
+
+.isolated {
+    text-align:right;
 }
 
