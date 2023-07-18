@@ -84,3 +84,171 @@ ul li {
     text-align:right;
 }
 
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .main h1 {
+    opacity: 0.5;
+  }
+  
+  .footer {
+    padding: 20px;
+    opacity: 0.5;
+  }
+  
+  .flag-container {
+    display: inline-flex;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.36);
+  }
+  .flag {
+    --color: #fcd116;
+    position: relative;
+    width: 400px;
+    height: 0;
+    border-top: 230px solid blue;
+    /* For an equilateral triangle it’s worth pointing out that the height is 86.6% of the width so (border-left-width + border-right-width) * 0.866% = border-bottom-width */
+    border-left: 400px solid white;
+    border-bottom: 230px solid red;
+  }
+  .sun {
+    position: absolute;
+    top: -84px;
+    left: -264px;
+    transform: scale(0.4);
+  }
+  .luzon {
+    position: absolute;
+    top: -185px;
+    left: -385px;
+  }
+  .visayas {
+    position: absolute;
+    top: -35px;
+    left: -120px;
+  }
+  .mindanao {
+    position: absolute;
+    top: 115px;
+    left: -385px;
+  }
+  
+  .sun .circle {
+    background-color: var(--color);
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 120px;
+    left: -75px;
+    border-radius: 50%;
+  }
+  
+  .sun .rays {
+    position: relative;
+    /* transform: scale(.1) */
+  }
+  
+  .rays .ray-1 {
+    position: absolute;
+  }
+  
+  .rays .ray-2 {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rays .ray-3 {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rays .ray-4 {
+    position: absolute;
+    transform: rotate(135deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rays .ray-5 {
+    position: absolute;
+    transform: rotate(180deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rays .ray-6 {
+    position: absolute;
+    transform: rotate(225deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rays .ray-7 {
+    position: absolute;
+    transform: rotate(270deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rays .ray-8 {
+    position: absolute;
+    transform: rotate(315deg);
+    top: 0px;
+    left: 0px;
+  }
+  
+  .left-side-ray {
+    width: 15px;
+    height: 140px;
+    position: relative;
+    left: -15px;
+    background-color: var(--color);
+    clip-path: polygon(100% 20%, 100% 20%, 70% 100%, 30% 100%, 0% 30%);
+    transform: rotate(-7deg);
+  }
+  
+  .main-ray {
+    width: 30px;
+    height: 140px;
+    position: relative;
+    top: -140px;
+    background-color: var(--color);
+    clip-path: polygon(50% 0%, 100% 14%, 70% 100%, 30% 100%, 0% 14%);
+  }
+  
+  .right-side-ray {
+    width: 15px;
+    height: 140px;
+    position: relative;
+    top: -280px;
+    left: 30px;
+    background-color: var(--color);
+    clip-path: polygon(100% 30%, 100% 30%, 70% 100%, 30% 100%, 0% 20%);
+    transform: rotate(7deg);
+  }
+  .star {
+    background-color: var(--color);
+    width: 65px;
+    height: 65px;
+    clip-path: polygon(
+      50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%
+    );
+  }
