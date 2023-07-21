@@ -92,19 +92,21 @@ ul li {
 
 .project_container {
     display:flex;
-    
+    justify-content: center;
+    align-items: center;
 }
 
 .p_isolated {
+
     display: flex;
-    justify-content:fle ;
+    justify-content: center;
+    align-items: center;
 }
 
 .project_links {
     display:flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    height: auto;
 }
 
 
