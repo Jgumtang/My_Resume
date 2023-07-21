@@ -1,10 +1,10 @@
 html {
-    background:#36454F;
+    background:#2c353a;
     color:#C0C0C0;
 }
 
 h1, h2{
-    color:#7390BC;
+    color:#b8bec6;
 }
 
 .name-header {
@@ -32,6 +32,12 @@ h1, h2{
 .first-p {
     display:block;
           
+}
+
+.custom_button {
+    padding-bottom: 10px;
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
 }
   
 .second-header {
@@ -83,4 +89,24 @@ ul li {
 .isolated {
     text-align:right;
 }
+
+.project_container {
+    display:flex;
+    
+}
+
+.p_isolated {
+    display: flex;
+    justify-content:fle ;
+}
+
+.project_links {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+}
+
+
+
 
