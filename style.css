@@ -3,6 +3,15 @@ html {
     color:#C0C0C0;
 }
 
+hr {
+    margin-top: 15px;
+}
+
+p {
+    font-weight: 100;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
 h1, h2{
     color:#b8bec6;
 }
@@ -34,6 +43,10 @@ h1, h2{
           
 }
 
+.first-p-isolated {
+    display: inline-block;
+}
+
 .custom_button {
     padding-bottom: 10px;
     border-right: 1px solid #848484;
@@ -42,7 +55,6 @@ h1, h2{
   
 .second-header {
     display:inline;
-
 }
 
 .experience {
@@ -50,12 +62,17 @@ h1, h2{
 }
 
 a {
+    font-weight: 100;
+    font-family: 'Anek Tamil', sans-serif;
     color:#87CEEB;
 }
   
 ul li {
+    font-weight: 100;
+    font-family: 'Anek Tamil', sans-serif;
     display:inline-block;
-    margin: 0 10px;   
+    margin: 0 3px;  
+    padding: 10px; 
 }
 
 .third-header {
@@ -79,31 +96,31 @@ ul li {
 }
 
 .other {
-    display:inline;
+    display: block;
 }
 
 .project-links {
     display:inline-block;
+    margin-top: 0%;
 }
 
 .isolated {
     text-align:right;
 }
 
-.project_container {
+.project-container {
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.p_isolated {
-
+.p-isolated {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.project_links {
+.project-links-2{
     display:flex;
     justify-content: center;
     align-items: center;
