@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- font-family: 'Kanit', sans-serif; -->
+    <style>
+
+        
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Kanit', sans-serif;
+    }
+    body {
+        min-height: 100vh;
+        background-color: #30ad8c;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 30px 200px;
+        background-color: #2b4747;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+    .head-name {
+        font-size: 32px;
+        color: #ffffff;
+        font-weight: 500;
+
+    }
+
+    .navbar a {
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 40px ;
+    }
+
+
+
+    </style>
 </head>
 <body>
+    <header class="header">
+        <p class="head-name">TRENCHDEVS</p>
+        <nav class="navbar">
+          <a href="#">PROJECTS</a>
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT US</a>
+          <a href="#">BLOG</a>
+          <a href="#">SIGN IN /JOIN</a>
+        </nav>
+    </header>
+    <img src="avataaars.jpg" alt="picture">
     
 </body>
 </html>
