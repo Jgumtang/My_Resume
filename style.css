@@ -10,22 +10,26 @@
 }
 
 body {
+    margin-top: 80px    ;
     height: 100%;
-    min-height: 100vh;
+    min-height: 150vh;
     background-color: #8ABAD3FF;
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 200px;
     background-color: #1C1C1BFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 70px;
+    padding: 20px 150px;
+    backdrop-filter: blur (10px);
+
 }
 
 .name-header {
@@ -59,6 +63,7 @@ body {
 
 .logo {
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
     margin: 3%;
@@ -73,13 +78,17 @@ body {
 }
 
 .body-spacing {
+    position: fixed;
+    top: 0;
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
 }
 
 ul li {
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -93,6 +102,7 @@ hr {
 
 h1, h2{
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
     color:#FFFFFF;
@@ -101,7 +111,9 @@ h1, h2{
 }
 
 .first-p {
+    padding-left: 15px;
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
     color: #ffffff;
@@ -119,18 +131,21 @@ footer {
 
 .project-container {
     display:flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
 }
 
 .p-isolated {
     display: flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
 }
 
 .project-links-2{
     display:flex;
+    flex-basis: auto;
     justify-content: center;
     align-items: center;
 }
