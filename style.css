@@ -1,5 +1,3 @@
-/* device viewports */
-
 /* index_styling */
 
 * {
@@ -19,7 +17,6 @@ body {
 
 li {
     list-style: none;
-
 }
 
 a {
@@ -29,8 +26,26 @@ a {
 }
 
 a:hover {
-    color: #195190FF ;
+    color: #D4B996FF;
 }
+
+/* HEADER */
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    width:100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
 
@@ -52,29 +67,5 @@ a:hover {
 
 
 /* projects.html */
-
-.project-container {
-    display:flex;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.p-isolated {
-    display: flex;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-links-2{
-    display:flex;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
 
 
