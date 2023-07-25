@@ -8,7 +8,7 @@
 
 body {
      min-height: 100vh;
-     background-image: url(https://images.pexels.com/photos/1529881/pexels-photo-1529881.jpeg);
+     background-image: url(https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg);
      background-size: cover;
      background-position: center;
 }
@@ -55,5 +55,4 @@ body {
 
 .navbar a:hover::before {
     width: 100%;
-
 }
