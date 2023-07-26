@@ -63,3 +63,16 @@ body {
     font-weight: 500;
 }
 
+.footer_container {
+    padding-top: 50%;
+}
+
+.footer {
+    position: fixed;
+    font-size: 15px;
+    color: #FFF;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: end;
+}
