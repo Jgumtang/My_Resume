@@ -56,3 +56,10 @@ body {
 .navbar a:hover::before {
     width: 100%;
 }
+
+.link {
+    font-size: 18px;
+    color: #FFFF;
+    font-weight: 500;
+}
+
