@@ -3,78 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My projects</title>
+    <title>My Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap" rel="stylesheet">
     <style>
+        html {
+            font-family: 'Balthazar', serif;
+            min-height: 100vh;
+            background-image: url(https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg);
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+        }
 
-html {
-    font-family: 'Balthazar', serif;
-    min-height: 100vh;
-    background-image: url(https://images.pexels.com/photos/2531709/pexels-photo-2531709.jpeg);
-    background-size: cover;
-    background-position: center;
-}
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            color: #ffffff;
+            text-align: center;
+        }
 
-h1  {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: #ffffff;
-    font-weight: bold;
-}
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
 
-.link_style a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 15px;
-    color: #FFFF;
-    padding: 1%;
-    padding-right: 4%;
-}
+        .link_style {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
 
-.btn_style {
-   
-}
+        .link_style a {
+            display: block;
+            text-decoration: none;
+            font-size: 18px;
+            color: #ffffff;
+            padding: 10px;
+        }
 
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    color: #ffffff;
-}
+        .link_style a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
 
+        .btn_style {
+            margin-top: 20px;
+        }
 
+        .btn {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
 
+        .btn:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
     </style>
 </head>
 <body>
-  <div class="project-container">
-    <h1>Here are the list of links:</h1>
- </div>
-<hr>
-<div>
-    <ul class="link_style">
-        <a href="https://jgumtang.github.io/Meme/">Meme</a>
-        <a href="https://jgumtang.github.io/html-portfolio/">Portfolio</a>
-        <a href=" https://jgumtang.github.io/Cv/">My first web</a>
-        <a href="https://jgumtang.github.io/Flag/">Flag of Laos</a>
-        <a href="https://jgumtang.github.io/bootstrap_practice/">Bootstrap Practice</a>
-        <a href="https://jgumtang.github.io/Mondrian_Project/">Mondrian_Project</a>
-       <a href="https://jgumtang.github.io/Project_1_TDVS/">Project 1</a>
-    </ul>
+    <div class="project-container">
+        <h1>Here are the list of links:</h1>
+        <ul class="link_style">
+            <li><a href="https://jgumtang.github.io/Meme/">Meme</a></li>
+            <li><a href="https://jgumtang.github.io/html-portfolio/">Portfolio</a></li>
+            <li><a href="https://jgumtang.github.io/Cv/">My first web</a></li>
+            <li><a href="https://jgumtang.github.io/Flag/">Flag of Laos</a></li>
+            <li><a href="https://jgumtang.github.io/bootstrap_practice/">Bootstrap Practice</a></li>
+            <li><a href="https://jgumtang.github.io/Mondrian_Project/">Mondrian Project</a></li>
+            <li><a href="https://jgumtang.github.io/Project_1_TDVS/">Project 1</a></li>
+        </ul>
+        <div class="btn_style">
+            <a href="./index.html">
+                <button class="btn">Homepage</button>
+            </a>
+        </div>
     </div>
-
-    <div class="btn_style">
-        <a href="./index.html">
-            <button class="btn">Homepage</button>
-        </a>
-    </div>
-        
 </body>
 </html>
